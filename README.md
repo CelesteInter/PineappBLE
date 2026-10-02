@@ -13,4 +13,7 @@ Group members:
 2. Install `Platform.io` extension
 3. Clone this repository and open it in IDE
 4. Initialize the project in `Platform.io` (open project)
-5. Flash the board using Platform.io
+5. Flash the board using `Platform.io`
+    - `Build` to compile the software
+    - `Upload` will build and attempt to uplaod the firmware to the ESP32S3 Xiao over USB port
+    - `Upload and Monitor` will upload the firmware, but will also allow you to see logs from ESPERR in the terminal.
